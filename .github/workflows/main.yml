@@ -19,6 +19,6 @@ jobs:
           server: ftp://149.100.151.71
           username: u228544066.sagarroy.com
           password: Ff@0191717756207
-          local-dir: .  # The root directory of your GitHub repo
+          local-dir: /  # The root directory of your GitHub repo
           server-dir: public_html/school/  # Path to your destination on FTP server
           log-level: verbose
