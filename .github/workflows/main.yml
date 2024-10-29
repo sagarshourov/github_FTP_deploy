@@ -20,6 +20,6 @@ jobs:
           username: u228544066.sagarroy.com
           password: Ff@0191717756207
           local-dir: server/  # The root directory of your GitHub repo
-          server-dir: public_html/school/  # Path to your destination on FTP server
+          server-dir: school/  # Path to your destination on FTP server
           log-level: verbose
           exclude: "lost+found/**" 
