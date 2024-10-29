@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: .  # The root directory of your GitHub repo
-          server-dir: /public_html/school/  # Path to your destination on FTP server
+          server-dir: public_html/school/  # Path to your destination on FTP server
           log-level: verbose
